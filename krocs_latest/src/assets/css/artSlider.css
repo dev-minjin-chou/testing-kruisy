@@ -1,0 +1,112 @@
+#nft {
+    padding-bottom: 120px;
+    overflow-x: hidden;
+}
+
+.nft-slide-container {
+    margin-top: 50px;
+}
+
+.nft-slide-container,
+.nft-slide-container.swiper-container {
+    overflow: visible !important;
+}
+
+.nft-art-img {
+    max-width: 400px;
+    min-width: 280px;
+    min-height: 310px;
+    height: auto;
+    width: 100%;
+    margin: 30px 15px;
+    transition: all .3s ease-in-out;
+    cursor: grab;
+    box-shadow: 2px 3px 15px #000;
+    border-radius: 8px;
+    background: var(--secondary);
+    color: #fff;
+    font-size: 17px;
+    text-align: center;
+}
+
+.nft-slide {
+    padding: 18px !important;
+}
+
+.swiper-slide-active .nft-art-img {
+    transform: scale(1.2);
+}
+
+.swiper-pagination {
+    width: 100%;
+    left: 0 !important;
+}
+
+.swiper-pagination-bullet {
+    width: 35px !important;
+    height: 5px !important;
+    background: var(--secondary) !important;
+    margin: 1px 4px !important;
+    transition: all .3s ease-in-out !important;
+    border-radius: 0 !important;
+    opacity: 1 !important;
+}
+
+.swiper-container-horizontal>.swiper-pagination-bullets,
+.swiper-pagination-custom,
+.swiper-pagination-fraction {
+    left: 0;
+    width: 100%;
+    top: 102% !important;
+    bottom: unset !important;
+}
+
+.swiper-pagination-bullet-active {
+    background: #fff !important;
+}
+
+@media screen and (max-width: 768px) {
+    .nft-art-img {
+        min-width: unset !important;
+        max-width: unset;
+        width: 100%;
+    }
+    .nft-slide {
+        padding: 24px !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .swiper-slide-active .nft-art-img {
+        transform: unset;
+    }
+    .nft-slide-container {
+        margin-top: 10px;
+    }
+    #nft {
+        padding-bottom: 60px;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    .nft-art-img {
+        min-width: unset !important;
+        width: 90%;
+    }
+    .nft-slide {
+        padding: 8px !important;
+    }
+    .swiper-container-horizontal>.swiper-pagination-bullets,
+    .swiper-pagination-custom,
+    .swiper-pagination-fraction {
+        top: 90% !important;
+    }
+    .swiper-pagination-bullet {
+        width: 28px !important;
+        height: 3px !important;
+        margin: 1px 3px !important;
+    }
+    #nft {
+        padding-bottom: 40px;
+    }
+}

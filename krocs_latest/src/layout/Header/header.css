@@ -1,0 +1,346 @@
+.web-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    background: var(--secondary);
+    z-index: 999;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.507);
+    color: #fff;
+}
+
+.header-spacer {
+    height: 100px;
+}
+
+.header-container {
+    justify-content: flex-start;
+    align-items: center;
+    min-height: 48px;
+    max-width: 1160px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.header-logo-area {
+    justify-content: flex-start;
+    align-items: center;
+    user-select: none;
+    flex: 1;
+    padding-right: 15px;
+    position: relative;
+}
+
+.header-logo-area a {
+    justify-content: flex-start;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+}
+
+.header-main-logo,
+.header-logo-area span {
+    font-weight: 750;
+    font-size: 22px;
+    background: var(--secondary);
+    z-index: 11;
+    padding: 7px 0 7px 17px;
+    box-sizing: content-box;
+}
+
+.header-logo-area img {
+    width: 100%;
+    width: 120px;
+    max-width: 120px;
+    margin-top: auto;
+}
+
+.krocs-logo {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 220px !important;
+    max-width: 220px !important;
+    animation: snake 15s linear infinite;
+    transform: translateX(0);
+    filter: drop-shadow(2px 3px 5px #000);
+    transform: translate(-110%);
+    z-index: -1;
+}
+
+@keyframes snake {
+    0% {
+        transform: translateX(-100%);
+    }
+    50% {
+        transform: translateX(380%);
+    }
+    60% {
+        transform: translateX(380%) scaleX(-1);
+    }
+    75% {
+        transform: translateX(150%) scaleX(-1);
+    }
+    90% {
+        transform: translateX(-110%) scaleX(-1);
+    }
+    100% {
+        transform: translateX(-110%) scaleX(-1);
+    }
+}
+
+.header-right-area {
+    margin-left: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--secondary);
+    height: 100%;
+    min-height: 99px;
+    z-index: 111;
+    padding-right: 17px;
+    padding-left: 25px;
+}
+
+.header-join-btn {
+    position: relative;
+    overflow: hidden;
+    transition: 400ms linear;
+    color: #fff;
+    background-color: #6200ee;
+    padding: 0 2rem;
+    min-height: 35px;
+    font-size: 18px;
+    outline: 0;
+    border: 0;
+    border-radius: 0.25rem;
+    box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    font-weight: 650;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 15px #000;
+    transform: scale(1.05);
+    text-decoration: none;
+    color: #fff;
+}
+
+.header-join-btn:hover {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.418);
+    transform: scale(1.0);
+    background: #6f10f5;
+}
+
+.header-join-btn img {
+    color: #fff;
+    margin-left: 7px;
+    width: 25px;
+}
+
+.menu-btn {
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-icon {
+    background-color: var(--primary);
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 25px !important;
+    box-sizing: content-box;
+    padding: 2px 6px;
+}
+
+.side-bar-wrapper {
+    position: fixed;
+    top: 0;
+    right: 0;
+    background: var(--secondary);
+    height: 100vh;
+    overflow-y: auto;
+    overflow-X: hidden;
+    z-index: 9999;
+    min-width: 350px;
+    box-shadow: 0 0 15px #000;
+    transform: translate(150%);
+    transition: transform 0.7s cubic-bezier(0.39, 0.575, 0.565, 1)
+}
+
+.opened-sidebar {
+    transform: translate(0);
+}
+
+.side-logo {
+    width: 100%;
+    padding: 12px 15px 6px 15px;
+    text-align: center;
+    border-bottom: .3px solid rgba(255, 255, 255, 0.13);
+    box-shadow: 0 0 15px #000;
+}
+
+.side-logo img {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 100px;
+}
+
+.side-bar-wrapper ul {
+    width: 90%;
+    max-height: 65%;
+    overflow: auto;
+    padding: 22px 8px 0 8px;
+    margin: 5px auto;
+}
+
+.side-bar-wrapper ul::-webkit-scrollbar {
+    width: 7px;
+}
+
+.side-bar-wrapper ul::-webkit-scrollbar-track {
+    background: #fff;
+    border-radius: 50px;
+}
+
+.side-bar-wrapper ul::-webkit-scrollbar-thumb {
+    background: #15053a;
+    border-radius: 50px;
+}
+
+.side-bar-wrapper ul li a {
+    display: block;
+    padding: 4px 8px;
+    margin: 4px auto;
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(247, 247, 247);
+    transition: .2s linear;
+    text-transform: uppercase
+}
+
+.side-bar-wrapper ul li a:hover {
+    color: var(--primary);
+}
+
+.backdrop-sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.24);
+    z-index: 99;
+}
+
+.sidebar-close-btn {
+    position: absolute;
+    top: 50%;
+    left: -2%;
+    transform: translateY(-50%);
+    background: var(--primary);
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.chev-icon {
+    font-size: 48px !important;
+}
+
+.sidebar-open-btn {
+    position: fixed;
+    top: 50%;
+    right: -2%;
+    transform: translateY(-50%);
+    background: var(--secondary);
+    width: 60px;
+    height: 55px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 2px 2px 15px #000;
+}
+
+.sidebar-open-btn .chev-icon {
+    font-size: 35px !important
+}
+
+.sidebar-socials {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 30px;
+    padding-top: 25px;
+    border-top: 1px solid rgba(255, 255, 255, 0.13);
+}
+
+@media (max-width:768px) {
+    .sidebar-open-btn {
+        border-radius: 12px;
+        right: -22px;
+        width: 55px;
+    }
+}
+
+@media (max-width:500px) {
+    .header-spacer {
+        height: 60px;
+    }
+    .sidebar-open-btn,
+    .header-join-btn {
+        display: none;
+    }
+    .header-right-area {
+        padding-left: 8px;
+        min-height: 76px;
+    }
+    .header-logo-area img {
+        width: 85px;
+        max-width: 85px;
+    }
+    .sidebar-close-btn {
+        top: 46px;
+        left: 17px;
+        border-radius: 8px;
+    }
+    .side-bar-wrapper ul li a {
+        font-size: 21px;
+    }
+    .header-main-logo {
+        padding: 7px 16px !important;
+    }
+    .header-container {
+        padding-left: 0;
+    }
+    .krocs-logo {
+        max-width: 190px !important;
+    }
+}
+
+@media (max-width:370px) {
+    .side-bar-wrapper {
+        min-width: 78%;
+    }
+    .side-bar-wrapper ul li a {
+        font-size: 20px;
+    }
+}
+
+@media (max-width:340px) {
+    .side-bar-wrapper {
+        min-width: 88%;
+    }
+    .side-bar-wrapper ul li a {
+        font-size: 17px;
+    }
+}
