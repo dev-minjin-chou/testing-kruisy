@@ -82,7 +82,7 @@ const RoadMap = () => {
               <div className="title row">
                 <h3
                   data-aos="fade-left"
-                >STAKING UTILITY.</h3>
+                >STAKING UTILITY</h3>
               </div>
               <p
                 data-aos="fade-left"
