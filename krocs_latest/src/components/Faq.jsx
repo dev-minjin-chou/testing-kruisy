@@ -6,7 +6,7 @@ const faqData = [
     {
         id: 0,
         qs: 'HOW MUCH IS A KRUISY KROCS NFT?',
-        ans: 'A Kruisy Krocs NFT will cost 0.05 ETH + gas. We strongly believe in having a competitive price. As to be part of an elite community, the barrier of entry should not be outrageous.'
+        ans: 'A Kruisy Krocs NFT will cost 0.03 ETH + gas. We strongly believe in having a competitive entry point as it is vital in building a strong community.'
     },
     {
         id: 1,
