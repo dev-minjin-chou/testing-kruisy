@@ -11,12 +11,14 @@ const About = () => {
         </div>
         <p data-aos="fade-up">
           Amidst the jungle, you've come to an undiscovered swamp, filled with 5,000 Kruisy Krocs
-          vibing away on the Ethereum blockchain
+          vibing away on the Ethereum blockchain.
         </p>
         <p data-aos="fade-up">
           Kruisy Krocs are a collection of randomly generated NFTs with millions of possible
           combinations.
-          <br />These Krocs are waiting to be adopted, to unlock their true potential ~ working together to
+        </p>
+        <p data-aos="fade-up">
+          These Krocs are waiting to be adopted, to unlock their true potential ~ working together to
           create a DAO.
         </p>
         <br />
