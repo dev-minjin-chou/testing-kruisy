@@ -18,7 +18,7 @@ const About = () => {
           combinations.
         </p>
         <p data-aos="fade-up">
-          These Krocs are waiting to be adopted, to unlock their true potential ~ working together to
+          These Krocs are waiting to be adopted, to unlock their true potential - working together to
           create a DAO.
         </p>
         <br />
