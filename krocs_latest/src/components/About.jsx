@@ -10,7 +10,7 @@ const About = () => {
           <h2 className="sec-heading" data-aos="zoom-out"> WELCOME </h2>
         </div>
         <p data-aos="fade-up">
-          Amidst the jungle, you've come to an undiscovered swamp, filled with 9,999 Kruisy Krocs
+          Amidst the jungle, you've come to an undiscovered swamp, filled with 5,000 Kruisy Krocs
           vibing away on the Ethereum blockchain
         </p>
         <p data-aos="fade-up">
