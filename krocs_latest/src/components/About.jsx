@@ -26,9 +26,7 @@ const About = () => {
           <h2 className="sec-heading" data-aos="zoom-out"> LEGENDARY KROCS </h2>
         </div>
         <p>
-          The Legendary Krocs are the 36 Krocs that look after the other Krocs. Each owner of these
-          Legendary Kroc NFTs will stand the chance to walk away with a $20,000 bonus. Once all
-          Kruisy Krocs are sold out, the Stonk Kroc will walk away with a bonus of $30,000.
+          The Legendary Krocs are the 36 Krocs that look after the other Krocs. Once all Kruisy Krocs are sold out each owner of these Legendary Kroc NFTs will stand the chance to walk away with a $20,000 bonus. The Stonk Kroc will walk away with a bonus of $30,000.
         </p>
       </div>
       <div className="examples" data-aos="fade-down">
