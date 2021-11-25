@@ -143,20 +143,20 @@ const About = () => {
             $30,000.
           </p>
         </div>
-      </div>
-      <div className="examples" data-aos="fade-down">
-        <img
-          loading="lazy"
-          className="about-img"
-          src={aboutImg}
-          alt="KRUICY KROCS"
-        />
-        <img
-          loading="lazy"
-          className="about-img about-swim"
-          src={crocks}
-          alt="KRUICY KROCS"
-        />
+        <div className="examples" data-aos="fade-down">
+          <img
+            loading="lazy"
+            className="about-img"
+            src={aboutImg}
+            alt="KRUICY KROCS"
+          />
+          <img
+            loading="lazy"
+            className="about-img about-swim"
+            src={crocks}
+            alt="KRUICY KROCS"
+          />
+        </div>
       </div>
       <div className="cs_container cs_row">
         <div className="sec-heading-wrapper text-center">
