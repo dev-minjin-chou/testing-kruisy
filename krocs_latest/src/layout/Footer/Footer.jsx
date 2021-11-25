@@ -14,7 +14,7 @@ const Footer = () => {
         <div className="infos cs_column" >
           <div className="blockmark cs_column">
             <div className="typo">KRUICY KROCS</div>
-            <p className="baseline">9.999 unique KROCS in need of partners.</p>
+            <p className="baseline">5,000 unique KROCS in need of partners.</p>
           </div>
           <p className="copyright">©2021 KRUICY KROCS. All rights reserved.</p>
         </div>
