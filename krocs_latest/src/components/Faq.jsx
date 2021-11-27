@@ -21,7 +21,7 @@ const faqData = [
     {
         id: 3,
         qs: 'WHEN WILL I BE ABLE TO MINT KRUISY KROCS?',
-        ans: 'The public launch will be held on November 26th, 2021, at 8pm EST, whilst the Whitelist Presale will be held earlier, info will be posted in our Discord.'
+        ans: 'The public launch date is TBD, whilst the Whitelist Presale will be held before that, info will be posted in our Discord.'
     },
     {
         id: 4,
