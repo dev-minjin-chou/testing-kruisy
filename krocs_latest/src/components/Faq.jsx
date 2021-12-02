@@ -6,7 +6,7 @@ const faqData = [
     {
         id: 0,
         qs: 'HOW MUCH IS A KRUISY KROCS NFT?',
-        ans: 'A Kruisy Krocs NFT will cost 0.045 = gas in Whitelist presale and 0.06 ETH + gas during publicsale. We strongly believe in having a low mint amount as it is vital in building a strong community.'
+        ans: 'A Kruisy Krocs NFT will cost 0.045 + gas in Whitelist presale and 0.06 ETH + gas during publicsale. We strongly believe in having a low mint amount as it is vital in building a strong community.'
     },
     {
         id: 1,
