@@ -136,7 +136,7 @@ const About = () => {
             </h2>
           </div>
           <p>
-            The Legendary Krocs are the 36 Krocs that look after the other
+            The Legendary Krocs are the 40 Krocs that look after the other
             Krocs. Once all Kruisy Krocs are sold out each owner of these
             Legendary Kroc NFTs will stand the chance to walk away with a
             $20,000 bonus. The Stonk Kroc will walk away with a bonus of
