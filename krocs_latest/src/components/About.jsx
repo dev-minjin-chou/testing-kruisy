@@ -226,7 +226,7 @@ const About = () => {
                       <br />+
                     </button>
                   </div>
-                  <p className="feedbackmint">{feedback}</p>
+                  <p className="feedback-mint">{feedback}</p>
                 </div>
               )}
             </div>

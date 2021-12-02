@@ -1,10 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@100;300;400;900&display=swap');
+
 
 @font-face {
-  font-family: calibri;
-  src: url(../fonts/Calibri\ Regular.ttf);
+  font-family: Londrina Solid,sans-serif;
+  src: url('https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@100;300;400;900&display=swap');
 }
 
 :root {
@@ -28,9 +30,13 @@ body {
 }
 
 body {
-  background-color: #6a8b4c;
+  --tw-bg-opacity: 1;
+  //background-color: rgba(165, 180, 252, var(--tw-bg-opacity));
+  background-color: rgba(52, 211, 153, var(--tw-bg-opacity));
   width: 100vw;
-  font: 1.8em/2 calibri;
+  font: 1.8em/2 Londrina Solid;
+  --tw-text-opacity: 1;
+  color: rgba(55,65,81,var(--tw-text-opacity));
 }
 
 section:not(.not-margin) {
@@ -338,18 +344,27 @@ section:not(.not-margin) {
   margin-left: 2px;
   position: relative;
   border-radius: 15px;
+  --tw-bg-opacity: 1;
   background-color: #9ACD32;
-  color: black;
+  --tw-text-opacity: 1;
+  color: rgba(55,65,81,var(--tw-text-opacity));
   padding: 8px 33px;
   text-align: center;
   text-decoration: none;
-  font-family: calibri;
+  font-family: Londrina Solid;
 }
 
-#home .feedbackmint{
+#home .feedback-mint{
   color: white;
   font-size: 20px;
-  font-family: calibri;
+  font-family: Londrina Solid;
+}
+
+#home .errorMessage {
+  --tw-text-opacity: 1;
+  color: rgba(252,165,165,var(--tw-text-opacity));
+  font-size: 20px;
+  font-family: Londrina Solid;
 }
 
 #home .examples:hover {
@@ -532,7 +547,8 @@ section:not(.not-margin) {
   width: 60%;
   margin-top: 0;
   text-align: center;
-  color: var(--secondary);
+  --tw-text-opacity: 1;
+  color: rgba(55,65,81,var(--tw-text-opacity));
   font-size: 17px;
   font-weight: 600;
 }
