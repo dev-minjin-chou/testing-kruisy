@@ -1,18 +1,18 @@
 {
-  "CONTRACT_ADDRESS": "0xc5d8aec4f0cd632c4e24a2abf541d9a8bdc82eec",
-  "SCAN_LINK": "https://etherscan.io/address/0xc5d8aec4f0cd632c4e24a2abf541d9a8bdc82eec",
-  "NETWORK": {
-    "NAME": "Ethereum",
-    "SYMBOL": "ETH",
-    "ID": 1
-  },
-  "NFT_NAME": "Kruisy Krocs",
-  "SYMBOL": "KK",
-  "MAX_SUPPLY": 5000,
-  "WEI_COST": 35000000000000000,
-  "DISPLAY_COST": 0.035,
-  "GAS_LIMIT": 150000,
-  "MARKETPLACE": "Opensea",
-  "MARKETPLACE_LINK": "https://opensea.io/collection/kruisy-krocs",
-  "SHOW_BACKGROUND": true
-}
+    "CONTRACT_ADDRESS": "0x56c5f21c2b4e4b2a931f409f8d10c26b685618a5",
+    "SCAN_LINK": "https://etherscan.io/address/0x56c5f21c2b4e4b2a931f409f8d10c26b685618a5",
+    "NETWORK": {
+      "NAME": "Ethereum",
+      "SYMBOL": "ETH",
+      "ID": 1
+    },
+    "NFT_NAME": "Kruisy Krocs",
+    "SYMBOL": "KK",
+    "MAX_SUPPLY": 5001,
+    "WEI_COST": 35000000000000000,
+    "DISPLAY_COST": 0.035,
+    "GAS_LIMIT": 150000,
+    "MARKETPLACE": "Opensea",
+    "MARKETPLACE_LINK": "https://opensea.io/collection/kruisy-krocs",
+    "SHOW_BACKGROUND": true
+  }
