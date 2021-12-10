@@ -158,7 +158,7 @@ const About = () => {
           />
         </div>
       </div>
-      {/* <div className="cs_container cs_row">
+      <div className="cs_container cs_row">
         <div className="sec-heading-wrapper text-center">
           <div>
             <div className="wallet">
@@ -231,8 +231,8 @@ const About = () => {
               )}
             </div>
           </div>
-        </div> */}
-      {/* </div> */}
+        </div> 
+      </div>
     </section>
   );
 };
